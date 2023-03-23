@@ -94,6 +94,7 @@ p {
     box-shadow: 1px 1px 20px 1px var(--grayishBlueT);
 
     width: 350px;
+    display: grid;
 }
 
 h3,
@@ -103,9 +104,7 @@ h3,
 
 /* The cards could be flexbox, but I prefered to test like this: */
 .card img {
-    position: relative;
-    right: -220px;
-    margin-top: 20px;
+    margin-right: 0;
 }
 
 .red {
